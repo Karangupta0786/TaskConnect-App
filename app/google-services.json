@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "150761056342",
+    "project_id": "taskconnect-e1a0a",
+    "storage_bucket": "taskconnect-e1a0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150761056342:android:695a3c0670f9dbb274b3f7",
+        "android_client_info": {
+          "package_name": "com.example.taskconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3BMM7tCsVzhlXaSfgZrX-rDs2OfBZ7tI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
