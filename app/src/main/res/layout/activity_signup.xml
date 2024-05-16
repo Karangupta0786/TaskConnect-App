@@ -27,15 +27,6 @@
         android:text="Create\nAccount"
         app:layout_constraintBottom_toTopOf="@id/ll"/>
 
-<!--    <View-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="2dp"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/txt_signup"-->
-<!--        app:layout_constraintStart_toStartOf="@id/txt_signup"-->
-<!--        app:layout_constraintEnd_toEndOf="@id/txt_signup"-->
-<!--        android:background="@color/black"-->
-<!--        android:elevation="9dp"/>-->
-
     <LinearLayout
         android:id="@+id/ll"
         android:layout_width="match_parent"
@@ -55,8 +46,20 @@
         android:layout_marginHorizontal="12dp"
         android:background="@drawable/et_rounded"
         android:layout_marginTop="9dp"
+        android:textColorHint="@color/light_black"
         android:padding="12dp"
         android:hint="Enter the name" />
+
+    <EditText
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:background="@drawable/et_rounded"
+        android:layout_marginTop="9dp"
+        android:textColorHint="@color/light_black"
+        android:padding="12dp"
+        android:hint="Status eg: student / developer" />
 
     <EditText
         android:id="@+id/email"
@@ -64,6 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="12dp"
         android:background="@drawable/et_rounded"
+        android:textColorHint="@color/light_black"
         android:layout_marginTop="9dp"
         android:padding="12dp"
         android:hint="Enter the email" />
@@ -74,6 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="12dp"
         android:background="@drawable/et_rounded"
+        android:textColorHint="@color/light_black"
         android:layout_marginTop="9dp"
         android:padding="12dp"
         android:hint="Enter the password" />
@@ -84,6 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="12dp"
         android:background="@drawable/et_rounded"
+        android:textColorHint="@color/light_black"
         android:padding="12dp"
         android:layout_marginTop="9dp"
         android:hint="Repeat the password" />
@@ -102,7 +108,7 @@
         android:text="Already Have an account? Login"
         android:layout_marginEnd="12dp"
         android:textSize="18sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:layout_marginTop="16dp"/>
 
 
